@@ -3,6 +3,8 @@
 // 3, 5 -> 243 (3⁵)
 // 2, 4 -> 16
 
+// решение с помощью библиотеки Math
+
 // Console.WriteLine("Введите первое число: ");
 // int A = int.Parse(Console.ReadLine()!);
 // Console.WriteLine("Введите второе число: ");
@@ -12,6 +14,24 @@
 //     int C = Convert.ToInt32(Math.Pow(A, B));
 // return C;
 // }
+// Console.WriteLine($"Число {A} в степени {B} равно {St(A)}");
+
+
+// Решение математически
+
+// Console.WriteLine("Введите первое число: ");
+// int A = int.Parse(Console.ReadLine()!);
+// Console.WriteLine("Введите второе число: ");
+// int B = int.Parse(Console.ReadLine()!);
+
+// int St(int A){
+//     int S = 1;
+//     for (int i = 0; i < B; i++)
+//     {
+//       S = S * A;
+//     }
+//     return S;
+//     }
 // Console.WriteLine($"Число {A} в степени {B} равно {St(A)}");
 
 
@@ -33,6 +53,8 @@
 //      }
 //     return Sum;
 // }
+
+
 
 
 
